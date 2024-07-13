@@ -8,7 +8,7 @@ const SendReport = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://weather-app-backend-ten-jet.vercel.app/send-weather-report', { email });
+      await axios.post('https://weather-app-xi-two-63.vercel.app/send-weather-report', { email });
       alert('Weather report sent successfully');
     } catch (error) {
       alert('Error sending weather report');

@@ -9,7 +9,7 @@ const UpdateUserDetails = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`https://weather-app-backend-ten-jet.vercel.app/users/${email}`, { location });
+      await axios.put(`https://weather-app-xi-two-63.vercel.app/users/${email}`, { location });
       alert('User details updated successfully');
     } catch (error) {
       alert('Error updating user details');

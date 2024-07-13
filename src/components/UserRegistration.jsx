@@ -9,7 +9,7 @@ const UserRegistration = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://weather-app-backend-ten-jet.vercel.app/users', { email, location });
+      await axios.post('https://weather-app-xi-two-63.vercel.app/users', { email, location });
       alert('User registered successfully');
     } catch (error) {
       alert('Error registering user');
