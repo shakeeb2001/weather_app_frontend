@@ -8,14 +8,9 @@ const SendReport = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://weather-app-xi-two-63.vercel.app/send-weather-report', { email });
-      if (response.status === 200) {
-        alert('Weather report sent successfully');
-      } else {
-        alert('Error sending weather report');
-      }
+      await axios.post('https://weather-app-xi-two-63.vercel.app/send-weather-report', { email });
+      alert('Weather report sent successfully');
     } catch (error) {
-      console.error('Error sending weather report:', error);
       alert('Error sending weather report');
     }
   };
