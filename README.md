@@ -18,5 +18,5 @@ This is a React application that provides a user interface for registering users
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/weather-report-frontend.git
+   git clone https://github.com/shakeeb2001/weather_app_frontend.git
    cd weather-report-frontend
