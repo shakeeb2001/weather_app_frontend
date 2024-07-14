@@ -27,7 +27,7 @@ const App = () => {
       <Container>
         <Box my={4}>
           <Routes>
-            <Route exact path="/" element={<UserRegistration />} />
+            <Route path="/" element={<UserRegistration />} />
             <Route path="/update" element={<UpdateUserDetails />} />
             <Route path="/send-report" element={<SendReport />} />
           </Routes>
